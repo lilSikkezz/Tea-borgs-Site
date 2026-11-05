@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0E2159">
+  <meta name="description" content="Tea-Borgs — echipă de robotică, idei curajoase și tehnologie construită împreună.">
+  <title>Tea-Borgs — Building what's next</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="scroll-progress" aria-hidden="true"><span id="progressBar"></span></div>
+
+  <header class="site-header" id="top">
+    <nav class="navbar" aria-label="Navigare principală">
+      <a class="brand" href="#top" aria-label="Tea-Borgs — Acasă">
+        <img src="./assets/images/logo.jpg"
+     alt="Tea-Borgs Logo"
+     class="brand-logo">
+        <span>Tea<span class="brand-accent">-Borgs</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Deschide meniul" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a class="nav-link active" href="#home">Acasă</a></li>
+        <li><a class="nav-link" href="#about">Despre noi</a></li>
+        <li><a class="nav-link" href="#projects">Proiecte</a></li>
+        <li><a class="nav-link" href="#team">Echipa</a></li>
+      </ul>
+
+      <a class="nav-cta" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <p class="eyebrow hero-eyebrow"><span class="eyebrow-line"></span> ROBOTICS TEAM · TÂRGU JIU</p>
+        <h1>We build<br><span>what's next.</span></h1>
+        <p class="hero-copy">Curiozitate transformată în tehnologie. Idei care prind viață prin robotică, programare și lucru în echipă.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#projects">Explorează proiectele <span>↗</span></a>
+          <a class="text-link" href="#about">Descoperă Tea-Borgs <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom container">
+        <span>THINK. BUILD. REPEAT.</span>
+        <a href="#about" class="scroll-cue"><span class="scroll-dot"></span> SCROLL TO EXPLORE</a>
+        <span class="hero-index">01 <i>/</i> 04</span>
+      </div>
+      <div class="hero-orbit orbit-one" aria-hidden="true"></div>
+      <div class="hero-orbit orbit-two" aria-hidden="true"></div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="container intro-grid">
+        <div class="section-kicker reveal"><span>01 / WHO WE ARE</span><span class="kicker-line"></span></div>
+        <div class="intro-main reveal">
+          <p class="eyebrow">MAI MULT DECÂT COD ȘI CIRCUITE</p>
+          <h2>Viitorul nu se<br> așteaptă. <span>Se construiește.</span></h2>
+          <div class="intro-bottom">
+            <p class="body-copy">Suntem Tea-Borgs, o echipă de tineri pasionați de robotică și tehnologie. Învățăm prin experiment, construim prin colaborare și transformăm provocările în proiecte reale.</p>
+            <a class="round-link" href="#team" aria-label="Descoperă echipa">↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="container stats-grid reveal">
+        <div class="stat"><strong data-count="3">0</strong><span>direcții de explorare</span></div>
+        <div class="stat"><strong data-count="1">0</strong><span>echipă. Un singur scop.</span></div>
+        <div class="stat stat-note"><span>ÎNVĂȚĂM<br>FĂCÂND.</span><span class="stat-star">✳</span></div>
+      </div>
+    </section>
+
+    <section class="focus-section section-pad">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">CUM GÂNDIM</p><h2>Curiozitatea ne<br><span>pune în mișcare.</span></h2></div>
+          <p class="body-copy heading-copy">De la prima schiță la ultimul test, fiecare pas ne apropie de o soluție mai bună.</p>
+        </div>
+        <div class="focus-cards">
+          <article class="focus-card reveal"><span class="card-number">01</span><div class="focus-icon">⌘</div><h3>Programare</h3><p>Logică, algoritmi și cod care dau viață ideilor.</p><span class="card-arrow">↗</span></article>
+          <article class="focus-card reveal"><span class="card-number">02</span><div class="focus-icon">◈</div><h3>Inginerie</h3><p>Mecanisme, electronică și prototipuri construite cu grijă.</p><span class="card-arrow">↗</span></article>
+          <article class="focus-card reveal"><span class="card-number">03</span><div class="focus-icon">✳</div><h3>Colaborare</h3><p>Idei diferite, aceeași direcție și progres făcut împreună.</p><span class="card-arrow">↗</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section-pad" id="projects">
+      <div class="container">
+        <div class="section-heading projects-heading reveal">
+          <div><p class="eyebrow">02 / SELECTED WORK</p><h2>Idei în<br><span>construcție.</span></h2></div>
+          <p class="body-copy heading-copy">Fiecare proiect este o ocazie să testăm, să greșim, să înțelegem și să construim mai bine.</p>
+        </div>
+        <div class="project-filters reveal" role="group" aria-label="Filtrează proiectele">
+          <button class="filter-button active" data-filter="all">Toate <span>03</span></button>
+          <button class="filter-button" data-filter="robotica">Robotică</button>
+          <button class="filter-button" data-filter="engineering">Engineering</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-large reveal" data-category="robotica">
+            <div class="project-image image-one"><span class="image-label">01 — ROBOTICS</span><span class="image-plus">↗</span></div>
+            <div class="project-meta"><div><h3>Robot autonom</h3><p>Mișcare. Senzori. Decizii.</p></div><span>2026</span></div>
+          </article>
+          <article class="project-card reveal" data-category="engineering">
+            <div class="project-image image-two"><span class="image-label">02 — ENGINEERING</span><span class="image-plus">↗</span></div>
+            <div class="project-meta"><div><h3>Sisteme inteligente</h3><p>Conectăm lumea fizică și digitală.</p></div><span>2026</span></div>
+          </article>
+          <article class="project-card reveal" data-category="robotica">
+            <div class="project-image image-three"><span class="image-label">03 — TEAMWORK</span><span class="image-plus">↗</span></div>
+            <div class="project-meta"><div><h3>Din atelier</h3><p>Testăm. Ajustăm. Repetăm.</p></div><span>2026</span></div>
+          </article>
+        </div>
+        <p class="project-disclaimer reveal">Proiectele și imaginile sunt exemple demonstrative — înlocuiește-le cu proiectele și fotografiile reale ale echipei.</p>
+      </div>
+    </section>
+
+    <section class="team section-pad" id="team">
+      <div class="container team-grid">
+        <div class="team-copy reveal"><p class="eyebrow">03 / THE PEOPLE</p><h2>O echipă.<br><span>Multiple perspective.</span></h2><p class="body-copy">Un robot bun nu este construit de o singură persoană. În spatele fiecărei reușite stau idei împărtășite, încercări și oameni care învață unii de la alții.</p><a class="button button-outline" href="#contact">Hai să vorbim <span>↗</span></a></div>
+        <div class="team-visual reveal"><div class="team-photo"></div><div class="team-stamp"><span>BUILT<br>TOGETHER</span><b>TB</b></div><div class="team-caption"><span>TEA-BORGS</span><span>ROBOTICS COMMUNITY · ROMANIA</span></div></div>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="container contact-inner reveal">
+        <p class="eyebrow">04 / GET IN TOUCH</p>
+        <h2>Ai o idee?<br><span>Hai s-o construim.</span></h2>
+        <p>Fie că vrei să afli mai multe despre echipă sau să discutăm despre o colaborare, ne-ar plăcea să te auzim.</p>
+        <a class="button button-light contact-button" href="mailto:contact@tea-borgs.ro">Contactează-ne <span>↗</span></a>
+        <div class="contact-decoration" aria-hidden="true">TB<span>✳</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+        <a class="brand footer-brand" href="#top">
+            <img src="./assets/images/logo.jpg" alt="Tea-Borgs Logo" class="brand-logo">
+            <span>Tea<span class="brand-accent">-Borgs</span></span>
+        </a>
+
+        <p>Building what's next.</p>
+        <a class="back-top" href="#top">Înapoi sus ↑</a>
+    </div>
+
+    <div class="container footer-bottom">
+        <span>© <span id="year"></span> TEA-BORGS. ALL RIGHTS RESERVED.</span>
+        <span>MADE WITH CURIOSITY IN ROMANIA.</span>
+    </div>
+</footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
